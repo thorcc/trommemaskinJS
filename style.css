@@ -1,0 +1,23 @@
+body{
+  font-family: helvetica;
+}
+#container{
+  display: flex;
+  justify-content: space-around;
+}
+.tromme{
+  border: solid 2px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+.valgtTromme{
+  border-color: yellow;
+  background-color: lightgrey;
+  transform: scale(1.1);
+  box-shadow: 5px 5px rgba(0,0,0,0.7); 
+}
+.bokstav{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
